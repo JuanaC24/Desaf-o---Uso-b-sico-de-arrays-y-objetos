@@ -1,0 +1,20 @@
+body{
+    background-color: paleturquoise;   
+}
+/* Estilos para la tabla */
+.tabla-atenciones {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Estilos para las celdas de la tabla */
+.tabla-atenciones th, .tabla-atenciones td {
+    border: 1px solid #90cad6;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilos alternativos para filas pares */
+.tabla-atenciones tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
